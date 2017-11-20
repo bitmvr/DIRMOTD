@@ -5,7 +5,9 @@ DIRMOTD is a light utility that will allows on to specify a [Message Of The Day 
 ## Installation
 
 1. Clone the project into the directory of your choice
-2. Apple the following to your `.bashrc`
+2. Save the following into your `.bashrc` file
   - `PROMPT_COMMAND=LOCAL/PATH/TO/dirmotd.sh`
+3. Exit each **Terminal**
+4. Launch a new **Terminal**
 
 That's it. You're all setup and ready to go!
