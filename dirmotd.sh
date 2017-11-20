@@ -28,8 +28,8 @@ function previous_dir() {
 }
 
 function read_motd() {
-  if [ -f 'test_file' ]; then
-    cat test_file
+  if [ -f '.dirmotd' ]; then
+    cat .dirmotd
   fi
 }
 
