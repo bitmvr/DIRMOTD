@@ -27,7 +27,7 @@ function previous_dir() {
 	fi
 }
 
-function read_testFile() {
+function read_motd() {
   if [ -f 'test_file' ]; then
     cat test_file
   fi
@@ -37,5 +37,5 @@ if [ "$(get_working_dir)" == "$(previous_dir)" ]; then
 	exit 0
 else
 	update_cwdStore "$(get_working_dir)"
-	read_testFile
+	read_motd
 fi
