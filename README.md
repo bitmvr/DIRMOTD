@@ -4,4 +4,8 @@ DIRMOTD is a light utility that will allows on to specify a [Message Of The Day 
 
 ## Installation
 
-To install **DITMOTD**, clone the project and then add the script to your path. That's it. You're all setup and ready to go!
+1. Clone the project into the directory of your choice
+2. Apple the following to your `.bashrc`
+  - `PROMPT_COMMAND=LOCAL/PATH/TO/dirmotd.sh`
+
+That's it. You're all setup and ready to go!
